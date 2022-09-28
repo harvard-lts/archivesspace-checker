@@ -24,4 +24,4 @@ ENV RACK_ENV=development
 RUN ["bundle"]
 ENV JRUBY_OPTS='-J-Djavax.net.ssl.trustStore=NONE -J-Xmx1g'
 RUN ["bundle", "exec", "rake", "assets:precompile"]
-CMD ["bundle", "exec", "puma", "-b", "tcp://0.0.0.0:9292"]
+CMD bundle exec puma -b tcp://0.0.0.0:9292 --redirect-stdout "logs/stdout_${HOSTNAME}" --redirect-stderr "logs/stderr_${HOSTNAME}"

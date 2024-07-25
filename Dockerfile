@@ -20,7 +20,7 @@ RUN chown -R ${APP_ID_NAME}:${GROUP_ID_NAME} /home/${APP_ID_NAME}
 
 USER ${APP_ID_NAME}
 ENV PATH=/usr/local/bundle/bin:/opt/jruby/bin:/opt/java/openjdk/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin
-ENV RACK_ENV=development
+ENV RACK_ENV=production
 RUN ["bundle"]
 ENV JRUBY_OPTS='-J-Djavax.net.ssl.trustStore=NONE -J-Xmx1g'
 RUN ["bundle", "exec", "rake", "assets:precompile"]

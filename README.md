@@ -1,6 +1,6 @@
 # Archivesspace Checker 
 
-## This project's current version is located at https://github.com/harvard-lts/archivesspace-checker/
+## This project's public version is located at https://github.com/harvard-lts/archivesspace-checker/, we have to have a private repo for github actions
 
 This is a small website intended to allow Harvard Archivists to check their EAD files prior to ingest by Archivesspace.
 

@@ -1,4 +1,4 @@
-# Archivesspace Checker
+# Archivesspace Checker 
 
 ## This project's current version is located at https://github.com/harvard-lts/archivesspace-checker/
 

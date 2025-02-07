@@ -7,5 +7,5 @@ on:
 
 jobs:
   build-and-publish-dev-qa:
-    uses: harvard-lts/ga-reusable-workflows/.github/workflows/BuildTrial.yml@1.0
+    uses: harvard-lts/ga-reusable-workflows/.github/workflows/BuildTrial.yml@main
     secrets: inherit

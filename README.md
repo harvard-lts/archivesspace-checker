@@ -1,4 +1,4 @@
-# Archivesspace Checker
+# Archivesspace Checker 
 
 This is a small website intended to allow Harvard Archivists to check their EAD files prior to ingest by Archivesspace.
 

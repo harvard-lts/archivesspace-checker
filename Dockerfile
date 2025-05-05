@@ -1,4 +1,4 @@
-FROM jruby:9.3-jdk11
+FROM jruby:9.4-jdk11
 LABEL application="ArchivesSpace EAD Checker"
 
 # Change these

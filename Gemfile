@@ -12,7 +12,6 @@ gem 'yard'
 gem 'yard-sinatra'
 
 group :development do
-  gem 'pry'
 end
 
 group 'test' do

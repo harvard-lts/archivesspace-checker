@@ -9,7 +9,7 @@ class ArchivesspaceChecker < Sinatra::Base
              else
                {}
              end
-
+  set :assets_paths, %w|assets/javascripts assets/stylesheets|
   set :assets_precompile, %w(application.js application.css *.png *.jpg)
   set :assets_css_compressor, :scss
   set :assets_js_compressor, :uglifier

@@ -7,7 +7,7 @@ services:
       context: './'
       dockerfile: 'Dockerfile'
     environment:
-      RACK_ENV: 'development'
+      RACK_ENV: 'production'
     volumes:
       - "./logs:/home/archeck/logs"
     ports:
